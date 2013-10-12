@@ -1,0 +1,36 @@
+{
+  "name": "sencha-touch.jsx",
+  "version": "0.1.0",
+  "description": "Sencha Touch API wrapper for JSX",
+  "scripts": {
+    "build": "grunt build",
+    "test": "grunt test",
+    "doc": "grunt doc"
+  },
+  "engines" : { "node" : ">=0.8.0" },
+  "keywords": [
+    "jsx",
+    "lib"
+  ],
+  "main": "./lib/sencha-touch.jsx",
+  "homepage": "https://github.com/shibukawa/sencha-touch.jsx",
+  "bugs": {
+    "url": "https://github.com/shibukawa/sencha-touch.jsx/issues"
+  },
+  "directories": {
+    "doc": "./doc",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shibukawa/sencha-touch.jsx.git"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1",
+    "grunt-jsx": ">=0.1.4"
+  },
+  "author": "shibukawa",
+  "license": "MIT"
+}
